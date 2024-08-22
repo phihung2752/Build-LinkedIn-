@@ -14,8 +14,8 @@ function App() {
 					</Route>
 					{/* Add more routes here */}
 					<Route path="/home">
-            <Header />
-            <Home />
+						<Header />
+						<Home />
 					</Route>
 				</Switch>
 			</Router>
