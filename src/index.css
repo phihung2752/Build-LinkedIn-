@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -9,6 +12,7 @@ html,
 body {
 	background-color: #f5f5f5 !important;
 	box-sizing: border-box !important;
+	font-family:Arial,sans-serif !important;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -119,7 +123,7 @@ section {
 	display: block;
 }
 body {
-	line-height: 1;
+	/* line-height: 1; */
 }
 ol,
 ul {
