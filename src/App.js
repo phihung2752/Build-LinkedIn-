@@ -19,6 +19,7 @@ function App() {
 						<Header />
 						<Home />
 						<Footer />
+
 					</Route>
 					{/* Thêm các route khác nếu cần */}
 				</Switch>
